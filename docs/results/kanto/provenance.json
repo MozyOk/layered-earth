@@ -1,0 +1,52 @@
+{
+  "source": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_surface_elev_gtif/ETOPO_2022_v1_60s_N90W180_surface.tif",
+  "source_sha256": "9d27d4b8ea8e76977e2988bca667d7c8fa68b927355feffcddd6b4875a7fd08e",
+  "source_bytes": 465969062,
+  "bounds_wsen": [
+    138,
+    34,
+    141,
+    37
+  ],
+  "pixel_window_xyxy": [
+    19080,
+    3180,
+    19260,
+    3360
+  ],
+  "shape": [
+    180,
+    180
+  ],
+  "horizontal_resolution_arcsec": 60,
+  "vertical_datum": "EGM2008",
+  "band_height_m": 5,
+  "filter": "finite elevation >= 0; no independent land mask",
+  "eligible_cells": 18350,
+  "resampling": "none",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0"
+  },
+  "comparisons": [
+    {
+      "connectivity": 4,
+      "components": 14563,
+      "occupied_layers": 511,
+      "area_km2": 50970.96763810358,
+      "contacts": 29663,
+      "singleton_components": 13345
+    },
+    {
+      "connectivity": 8,
+      "components": 13475,
+      "occupied_layers": 511,
+      "area_km2": 50970.96763810358,
+      "contacts": 27542,
+      "singleton_components": 11941
+    }
+  ]
+}
